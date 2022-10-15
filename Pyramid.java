@@ -3,7 +3,7 @@ public class Pyramid {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int i = 1;
+        int i = 1;   // update this or optimise it as seen possible
         while (i <= n) {
             int spaces = 1;
             while (spaces <= n - i) {
