@@ -5,7 +5,8 @@ public class TotalSalary {
             int basic = s.nextInt();
             double hra,da,pf ;
             char grade = s.next().charAt(0);
-            int totalSalary,allow = 0;
+            int totalSalary;
+            int allow = 0;
 
             hra = 0.2*basic;
             da = 0.5*basic;
